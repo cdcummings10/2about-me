@@ -1,0 +1,51 @@
+body {
+    background-color: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav li {
+    background-color: darkorchid;
+    display: block;
+    float: left;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: darkorchid;
+    color: ivory;
+    font-weight: bold;
+    font-size: 3em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    text-shadow: 2px 2px purple;
+  }
+  
+  h3 {
+    font-size: 1.em;
+    font-weight: bold;
+    line-height: 2em;
+    padding: 10px 10px 0px 10px;
+    margin: 50px 0 0 0;
+  }
+
+  p {
+    padding: 10px 10px 10px 10px;
+  }
+  
+  #headshot {
+    border: 5px solid purple;
+    float: right;
+    margin: 15px;
+    width: 30%;
+  }
+
+  footer {
+    background-color: darkgray;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+  }
