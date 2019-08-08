@@ -11,3 +11,9 @@ v3 additions:
     Adding two more questions to guessing game, 5 yes or no and two answer.
     Updated CSS
     Added ol and ul for favorite food, education and work experience
+
+v4 additions:
+    Created functions for all questions.
+    Fixed problem with question 7 loop.
+    Driver: Kyungrae Kim
+    Navigator: Christopher Cummings
