@@ -17,3 +17,10 @@ v4 additions:
     Fixed problem with question 7 loop.
     Driver: Kyungrae Kim
     Navigator: Christopher Cummings
+
+v5 additions:
+    Updated About Me paragraph.
+    Added images.
+    Fixed and updated nav so all links work.
+    Updated CSS styling.
+    Updated JS questions 7 to log correct and incorrect answers.
