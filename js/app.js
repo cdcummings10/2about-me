@@ -9,7 +9,7 @@ if (gameConfirm){
 
   function getQ1() {
     var q1 = prompt('Is it true that I\'ve lived in Hawaii? (y/n)');
-    if ((q1.toLowerCase()).charAt(0) === 'y'){
+    if (q1.toLowerCase().charAt(0) === 'y'){
       alert('Correct! I lived there for a couple of years. Mahalo for taking this quiz!');
       console.log('Question 1 Correct Answer: ' + q1);
       correctAnswers++;
@@ -84,7 +84,7 @@ if (gameConfirm){
 
   // start of type in answers
   function getQ6() {
-    for (var i = 1; i <= 4; i++){
+    for (var i = 0; i < 4; i++){
       var q6 = prompt('How old was I when I first used a computer mouse? (You have 4 tries!)');
       if (parseInt(q6) === 2){
         alert('Correct! I\'ve been on the computer for way too long!');
@@ -109,7 +109,7 @@ if (gameConfirm){
 
   function getQ7() {
     var q7Correct = false;
-    for (var j = 1; j <= 6  && q7Correct === false; j++){
+    for (var j = 0; j < 6  && q7Correct === false; j++){
       var q7 = prompt('What cities have I lived in? (You have 6 tries!)');
 
       var livedCities = ['seattle', 'honolulu', 'mill creek', 'spokane'];
