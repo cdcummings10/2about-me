@@ -108,7 +108,7 @@ if (gameConfirm){
   getQ6();
 
   function getQ7() {
-  var q7Correct = false;
+    var q7Correct = false;
     for (var j = 1; j <= 6  && q7Correct === false; j++){
       var q7 = prompt('What cities have I lived in? (You have 6 tries!)');
 
@@ -118,6 +118,7 @@ if (gameConfirm){
         if(livedCities[k] === q7.toLowerCase()){
           livedCities.splice(k, 1);
           alert('Correct! I have also lived in ' + livedCities);
+          console.log('Question 7 Correct Answer: ' + q7);
           q7Correct = true;
           correctAnswers++;
           break;
@@ -127,9 +128,11 @@ if (gameConfirm){
 
       if (j === 6){
         alert('Nice try! The correct answers were: Honolulu, Mill Creek, Spokane and Seattle!');
+        console.log('Question 7 Incorrect Answer Attempt ' + j + ': ' + q7);
       }
       else if (q7Correct === false) {
         alert('Incorrect! Try again!');
+        console.log('Question 7 Incorrect Answer Attempt ' + j + ': ' + q7);
       }
     }
   }
@@ -137,7 +140,7 @@ if (gameConfirm){
   getQ7();
 
   alert('Thanks for taking my quiz, ' + username + '! Your score was ' + correctAnswers + ' out of 7! Enjoy my page!');
-  }
+}
 else {
   alert('Sounds good! Welcome to my page ' + username + ' !');
 }

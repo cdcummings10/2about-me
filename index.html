@@ -7,35 +7,36 @@
     <link rel="stylesheet" href="css/style.css"/>
     <body>
         <header>
-            <h1>Christopher Cummings</h1>
-            <!-- TODO: Create nav to resume and other links -->
+            <h1 id="home">Christopher Cummings</h1>
         </header>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Resume</li>
-                <li>Other</li>
+                <a href="#home"><li>Home</li></a>
+                <a href="https://docs.google.com/document/d/16keDcjVVW128pRoR3JjIpPkuantdmIXIPxMOZL_tDs4/edit?usp=sharing"><li>Resume</li></a>
+                <a href="https://www.linkedin.com/in/cdcummings10/"><li>Linkedin</li></a>
+                <a href="https://github.com/cdummings10"><li>GitHub</li></a>
             </ul>
         </nav>
         <main>
             <section>
-                <h3>Who is Chris Cummings?<img id="headshot" src="https://yak-ridge.com/wp-content/uploads/2019/04/image-placeholder-350x350.png"></h3>
-                <!-- TODO: expand about me paragraph -->
-                <p>Hello! My name is Chris and I'm a junior software developer with a passion for coding. 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3>Who is Chris Cummings?<img id="headshot" src="img/headshot350x450.png"></h3>
+                <p>Hello! My name is Chris and I'm a junior software developer with a passion for coding. I've lived in the greater
+                    seattle area for most of my life, but have also lived in Spokane, WA as well as Honolulu, Hawaii.  I spent some time working retail 
+                    before going to get an AAS at Spokane Community College in the Water Resources Technology Field.  With that, 
+                    I landed a job in Honolulu, Hawaii working for the U.S. Geological Survey!  After a change, I ended up working 
+                    for Google Maps as a Visual Data Specialist and later an Assistant Pod Lead.  It's been quite the journey, 
+                    and now I'm ready to show off my software development skills, wrapped in the life experience that makes up me!</p>
+                    <p>When I'm not coding, you can find me playing tennis, playing a video game or designing fantasy worlds and settings!  If I'm not there, I'm enjoying a delicious beer at your local brewery.  In the future, I'd love to own an English Bulldog (though I'm not sure what I would name it)!</p>
             </section>
             <section>
-                <h4>Education</h4>
+                <h4 class>Education<span class="experience"><a href=https://docs.google.com/document/d/16keDcjVVW128pRoR3JjIpPkuantdmIXIPxMOZL_tDs4/edit?usp=sharing">  See more on Resume!</a></span></h4>
                 <dl>
                     <dt>Code Fellows Student</dt>
-                    <dd>Student at Code Fellows learning HTML, CSS and JavaScript.</dd>
+                    <dd>Student at Code Fellows learning HTML, CSS, JavaScript and C#.</dd>
                     <dt>Spokane Community College</dt>
                     <dd>Graduate with an AAS degree in Water Resources Technology.</dd>
                 </dl>
-                <h4>Work Experience</h4>
+                <h4>Work Experience<span class="experience"><a href=https://docs.google.com/document/d/16keDcjVVW128pRoR3JjIpPkuantdmIXIPxMOZL_tDs4/edit?usp=sharing">  See more on Resume!</a></span></h4>
                 <dl>
                     <dt>Google Maps</dt>
                     <dd>Assistant Pod Lead - In charge of creating training materials and quality control.</dd>
@@ -44,6 +45,8 @@
                         new technology.
                     </dd>
                 </dl>
+            </section>
+            <img id="dance" src="img/chrisdance.png">
                 <h4>Top Ten Favorite Foods (Not in order!)</h4>
                 <ol>
                     <li>Sushi</li>
@@ -57,9 +60,9 @@
                     <li>Korean BBQ</li>
                     <li>Sriracha Ketchup (Try it! It's really good!)</li>
                 </ol>
-        </section>
         </main>
         <footer>
+            <a href="#home">Back to Top</a>
             &copy; Chris Cummings 2019
         </footer>
         <script src="js/app.js"></script>
